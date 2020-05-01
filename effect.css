@@ -1,0 +1,125 @@
+h2 {text-align:center;
+     font-family: sans-serif;
+      font-variant: small-caps;}
+      h3 {text-align:center;
+        font-family: sans-serif;
+         font-variant: small-caps;
+        font-size: 2cm;
+        animation:1s ease 0s line-height;}
+        @keyframes line-height{
+            from{ line-height:10px;}
+            to{ line-height:300px;}
+        }
+h2.shadow{
+        text-shadow:10px 10px 5px cyan;
+      }
+h3.shadow{
+    text-shadow:10px 10px 5px cyan;
+    font-size: 2cm;
+}
+body{
+        background-image: url(https://cdn.pixabay.com/photo/2020/01/15/20/37/sea-4768869_960_720.jpg);
+        background-repeat: no-repeat;
+      /*  background-position: center;*/
+        background-size: cover;
+    }
+p{text-align:left;
+    }
+
+    
+    p.r{text-align:right;
+    }
+p.grand{
+    font-size: 1.5cm;
+}
+p.m{
+    font-size: 1cm;
+}
+p.shadow{
+        text-align:left;
+        text-shadow:10px 10px 5px cyan;
+        font-size: 1cm;
+    }
+
+ol.d {
+        list-style-type:upper-alpha;
+        }
+ul.carre {
+            list-style-type:square;
+            }
+table{
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid black;
+    height: 24px;
+    }
+li.px{
+    font-size: 1cm;
+}
+div.arrond{
+    width:100px; height:100px; border-radius:60%; overflow:hidden;
+}
+a.link{
+      color: #000000;  /* CSS link color (red) */
+}
+a.link:hover{
+    color: #FFFF00;  /* CSS link color (red) */
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    text-align: right;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label.b{
+    display: block;
+    width: 50px;
+    text-align: left;
+  }
+  label.bi{
+    display: inline-block;
+    width: 70px;
+    text-align: left;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-align: left;
+    border: 1px solid #999;
+    text-align: left;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  div.radio{
+    text-align:left;
+  }
+  input.image{
+   width: 60px;
+   height: 40px;
+  }
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: .5em;
+  }
+  select{
+    font-variant: left;
+  }
